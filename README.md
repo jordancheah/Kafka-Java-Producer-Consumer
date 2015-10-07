@@ -29,12 +29,12 @@ $ ./bin/kafka-server-start ./etc/kafka/server.properties
 $ ./bin/schema-registry-start ./etc/schema-registry/schema-registry.properties
 ```
 
-Then start your consumer first and then start the producer.
+Then start your consumer first and then start the producer.  For example, if your IDE is Eclipse, this is how you would run:
 ```
 Run from Eclipse:
 Right-click - solution - MyConsumer.java - Run - Java Application
 Right-click - solution - MyKafkaProducer.java - Run As - Run Configurations
-    Program arguments = /home/vmuser/training/datasets/playing_cards_datetime.tsv
+    Program arguments = playing_cards_datetime.tsv
     click Apply, then click Run
 ```
 
