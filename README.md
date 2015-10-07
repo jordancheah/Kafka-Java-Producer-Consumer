@@ -1,14 +1,14 @@
 # Kafka-Java-Producer-Consumer
 
-## Kafka Producer
-Kafka Producer Group in Java with the following characteristics:
+This program illustrates how to create Kafka Producer and Kafka Consumer in Java.
+
+Kafka Producer Group:
 * Reads and sends the playing_cards_datetime.tsv dataset 
 * Connects to localhost:9092
 * Sends messages on my_topic, with key = my_key
 * Sends all messages as Strings
 
-## Kafka Consumer
-Kafka Consumer Group in Java with the following characteristics:
+Kafka Consumer Group:
 * Consumes messages sent on my_topic 
 * Connects to ZooKeeper on localhost
 * Consumes all data as Strings
